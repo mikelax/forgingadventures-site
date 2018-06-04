@@ -20,6 +20,7 @@ const colorOptions = {
     .darken(20)
     .saturate(100)
     .toString(),
+  white: 'white',
 }
 
 export default {
