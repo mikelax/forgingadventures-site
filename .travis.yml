@@ -1,0 +1,13 @@
+language: node
+
+cache:
+  yarn: true
+  directories:
+    - $HOME/.composer/cache
+
+before_install:
+  - yarn install
+
+script:
+  - yarn lint
+  - yarn gatsby build
