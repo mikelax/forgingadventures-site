@@ -3,33 +3,26 @@ import spider from 'images/giants.svg';
 import HomeList from './HomeList';
 
 const data = [
-  'extend the framework with thousands of existing <a href="https://symfony.com/doc/bundles/" target="_blank" rel="noopener noreferrer nofollow">Symfony bundles</a> and <a href="https://reactjs.org/community/ui-components.html" target="_blank" rel="noopener noreferrer nofollow">React components</a>',
-  'use the server library in any existing Symfony or PHP app, use client components with any Hydra-enabled API, regardless of its programming language',
-  'reuse all your Symfony, React and Docker skills and benefit of their high quality docs; you are in known territory',
+  'Game Masters quickly create a Game, providing attributes for skill level, posting frequency, game scenarios and overview.',
+  'Users and the GM can discuss the game & questions in the Game Lounge, which is separate from the actual Game Thread.',
+  'Games consist of a <strong>single integrated Game Thread</strong> for both In-Character (ic) and Out-of-Character (ooc) posts. This allows players to easily keep track of the Game, along with running ooc commentary',
+  'Players create Characters with Game specific attributes. Posts automatcailly generate <strong>custom Character Message Headers</strong>, no copying and pasting text.',
+  'When Posting, the <strong>Custom Message Editor</strong> provides numerous features to make posting quick and easy. Custom text styling, advanced dice roller, image uploads & more',
 ];
 
 const Giants = () => (
   <section className="home__part home__giants">
     <div className="container giants__container">
       <h1 className="giants__title">
-        Built on the Shoulders of <strong>Giants</strong>
+        How does Forging Adventures make <strong>Play by Post Gaming</strong> easy?
       </h1>
       <article className="giants__content">
         <p className="hidden-small">
-          API Platform is built on top of <strong>battle-tested products</strong>.
-          The server skeleton includes the famous <strong>Symfony 4</strong> microframework
-          and the <strong>Doctrine</strong> ORM.
-          Client-side components use Facebook&apos;s <strong>React</strong>
-          {' '}(a Vue.js integration is also available).
-          The development environment and the deployment mechanism leverage
-          {' '}<strong>Docker, Kubernetes and Helm</strong>.
+          Forging Adventures is the <strong>first website purpose built</strong> with features
+          to make Play by Post games quick and easy. FA works beautifully on any device, so it's
+          easy to play on the go anywhere.
         </p>
         <HomeList data={data} className="giants__list" />
-        <p className="hidden-small">
-          API Platform is also designed as a set of independent and reusable
-          components. You can perfectly use them in a standalone way, or integrate them by yourself
-          in your own project.
-        </p>
       </article>
       <div className="giants__spider">
         <img

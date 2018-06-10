@@ -1,81 +1,73 @@
 const schema = [
   {
-    title: 'Shape the data',
+    title: 'GM Creates Game',
     items: [
       {
         icon: 'data',
-        link: '/docs/schema-generator',
-        title: 'Create a Model',
+        title: 'Create a Game',
         text:
-          'Design your own data model as plain old PHP classes or import an existing structure from the Schema.org vocabulary.',
+          'The Game Master creates a Game for a given System (ie 5e). She may specify attributes for the type of Game to be run',
       },
     ],
   },
   {
-    title: 'Build the Server',
+    title: 'Players Join Game',
     items: [
       {
         icon: 'expose',
-        link: '/docs/core',
-        title: 'Expose your API',
+        title: 'Search Games',
         text:
-          'Embrace the open web: JSON-LD/Hydra, GraphQL, JSON API, HAL, YAML, JSON, XML and CSV are supported out of the box.',
+          'Using the Games Search page, Players search and find games they are interested in Joining',
       },
       {
-        icon: 'security',
-        link: '/docs/core/security',
-        title: 'Add Auth',
+        icon: 'test',
+        title: 'Game Discussion',
         text:
-          'Add JSON Web Token or OAuth authentication in a breath. CORS support is built-in. OWASP’s best practices are automatically enforced.',
+          'The Game Lounge is where potential Players, and the GM can discuss the upcoming Game, recruit Players, and ask questions',
       },
       {
         icon: 'doc',
-        link: '/docs/core/swagger',
-        title: 'Browse the Docs',
+        title: 'Join Game',
         text:
-          'Enjoy the beautiful, automatically generated, API documentation (Swagger/OpenAPI).',
+          'Players can easily Join the Game. They can select an existing Character or create one later',
       },
     ],
   },
   {
-    title: 'Add clients',
+    title: 'Prepare Game',
     items: [
       {
         icon: 'app',
-        link: '/docs/client-generator',
-        title: 'PWA and Mobile',
-        text: 'Generate React, React Native and Vue.js apps from the API docs.',
+        title: 'Prepare Character',
+        text: 'Players easily create Characters for the given Game System. Character Attributes are used during game play.',
       },
       {
         icon: 'admin',
-        link: '/docs/admin',
-        title: 'Create an Admin',
+        title: 'Approve Players',
         text:
-          'A nice Material UI admin interface built with React is automatically available!',
+          'Using the Game Tools, the GM is able to approve Players and ensure Party is ready to begin',
       },
     ],
   },
   {
-    title: 'Test',
+    title: 'Begin the Adventure!!',
     items: [
       {
         icon: 'test',
-        link: '/docs/distribution/testing',
-        title: 'Specs & Tests',
+        title: 'Play & Post',
         text:
-          'Add unit tests with PHPUnit. Create specs and tests with a developer friendly API testing tool on top of Behat. A Postman integration is also provided.',
+          'Once the party is full and all Characters have been selected, Players & the GM begin posting.',
       },
     ],
   },
   {
-    title: 'Deploy',
+    title: 'Keep the Adventure Going',
     items: [
       {
-        icon: 'deploy',
-        link: '/docs/deployment',
-        title: 'Cloud Native',
+        icon: 'test',
+        title: 'Continue Playing',
         text:
-          'Install a development environment and deploy your project in production using Docker, Kubernetes and the Helm package manager.',
+          'Using FA\'s advanced Editor, custom text formats, dice rolling, and more it\'s never been easier to keep the Game going.',
       },
     ],
   },

@@ -31,10 +31,6 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.headComponents}
           {css}
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css"
-          />
         </head>
         <body>
           {this.props.preBodyComponents}

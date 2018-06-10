@@ -38,14 +38,12 @@
     }
   }
 
-  .cover__logo {
-    width: 80vmin;
-    height: auto;
-    max-width: 90%;
-
-    path {
-      fill: $blue;
-    }
+  h1 {
+    font-size: 7rem;
+    line-height: 1em;
+    color: $blue;
+    font-weight: bold;
+    margin: 10px auto 10px;
   }
 
   h2 {
@@ -85,10 +83,6 @@
       width: 620px;
     }
 
-    .cover__logo {
-      width: 715px;
-    }
-
     .cover__spider {
       bottom: calc(48vh - 40px);
       height: 350px;
@@ -110,10 +104,6 @@
       margin: 20px 0;
       font-size: 2.4rem;
       max-width: 60%;
-    }
-
-    .cover__logo {
-      width: 60%;
     }
 
     .cover__spider {
@@ -141,10 +131,6 @@
       top: 8vh;
     }
 
-    .cover__logo {
-      width: 100%;
-    }
-
     .cover__buttons {
       .btn {
         width: 100%;
@@ -160,10 +146,6 @@
     h2 {
       font-size: 2rem;
       margin: 10px auto 15px;
-    }
-
-    .cover__logo {
-      display: none;
     }
 
     .cover__content {

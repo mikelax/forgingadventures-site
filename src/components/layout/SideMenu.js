@@ -4,7 +4,6 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import LogoSpider from 'images/logo_spider.svg';
 import Logo from './Logo';
-import Search from './Search';
 import MenuItem from './MenuItem';
 
 const nav = links.map(link => <MenuItem key={link.text} {...link} />);
@@ -24,7 +23,6 @@ const SideMenu = ({ open }) => (
         </div>
         <Logo className="logo__text" />
       </div>
-      <Search className="side-menu__search" />
     </div>
     <nav className="side-menu__nav">
       <MenuItem key="home" path="/" text="Home" />

@@ -1,12 +1,11 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import dataSchema from 'data/schema';
 import spider from 'images/spider_schema.svg';
 
 /* eslint-disable react/prop-types */
 
-const SchemaItem = ({ icon, link, text, title }) => (
-  <Link to={link} className="schema__item">
+const SchemaItem = ({ icon, text, title }) => (
+  <div className="schema__item">
     <div className="schema__card">
       <i className={`schema__icon icon-line-${icon}`} />
       <div className="schema__content">
@@ -14,7 +13,7 @@ const SchemaItem = ({ icon, link, text, title }) => (
         <p>{text}</p>
       </div>
     </div>
-  </Link>
+  </div>
 );
 
 const SchemaPart = ({ title, items }) => (
@@ -51,7 +50,7 @@ const Schema = () => (
   <section className="home__part home__schema">
     <div className="container schema__container">
       <h1 className="schema__title">
-        Creating Linked Data <strong>REST</strong> APIs has Never Been so Easy
+        It's never been easier to get started with Play by Post Gaming
       </h1>
       {dataSchema.map(part => <SchemaPart key={part.title} {...part} />)}
     </div>

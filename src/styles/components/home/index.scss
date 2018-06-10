@@ -6,7 +6,6 @@
 @import './expose';
 @import './schema';
 @import './references';
-@import './seo';
 
 .hidden-small {
   @include mq($max-width: $vw-small) {

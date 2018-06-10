@@ -1,7 +1,6 @@
 import React from 'react';
 import spider from 'images/spider_home.svg';
 import Button from 'components/common/Button';
-import Logo from 'components/layout/Logo';
 
 const Cover = () => (
   <section className="home__cover full">
@@ -16,8 +15,8 @@ const Cover = () => (
           height="419"
         />
       </div>
-      <Logo className="cover__logo" />
-      <h2>REST and GraphQL framework to build modern API-driven projects</h2>
+      <h1>Forging Adventures</h1>
+      <h2>A new way to play old-school RPGs online, quickly and easily</h2>
       <div className="cover__buttons">
         <Button
           empty
