@@ -1,6 +1,41 @@
 const Path = require('path');
 const URL = require('url');
 
+exports.createPages = ({ boundActionCreators, graphql }) => {
+  const { createPage } = boundActionCreators;
+
+  const singleColTextTemplate = Path.resolve(`src/templates/SingleColText.js`);
+
+  return graphql(`{
+    allMarkdownRemark(
+      limit: 100
+    ) {
+      edges {
+        node {
+          frontmatter {
+            path
+          }
+        }
+      }
+    }
+  }`
+  )
+    .then(result => {
+      if (result.errors) {
+        return Promise.reject(result.errors);
+      }
+
+      result.data.allMarkdownRemark.edges
+        .forEach(({ node }) => {
+          createPage({
+            path: node.frontmatter.path,
+            component: singleColTextTemplate,
+            context: {} // additional data can be passed via context
+          });
+        });
+    });
+};
+
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
   if ('MarkdownRemark' !== node.internal.type) {

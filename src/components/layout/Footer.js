@@ -16,7 +16,7 @@ const Footer = () =>
         Copyright © {`20${new Date().getYear() - 100}`} Forging Adventures
       </p>
       <div className="footer__links">
-        <Link to="/privacy">Privacy Policy</Link> | <Link to="/terms">Terms of Use</Link>
+        <Link to="/privacy">Privacy Policy</Link> | <Link to="/terms">Terms of Service</Link>
       </div>
     </footer>
   );
