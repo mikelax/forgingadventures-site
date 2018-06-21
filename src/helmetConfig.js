@@ -3,7 +3,7 @@ export default {
     titleTemplate: 'Forging Adventures: %s',
     defaultTitle: 'Forging Adventures',
     meta: [
-      { name: 'description', content: 'A new way to play old-school RPGs online' },
+      { name: 'description', content: 'A new way to play old-school Tabletop RPGs online' },
       { charset: 'utf-8' },
       { name: 'theme-color', content: '#38a9b4' },
       { property: 'og:site_name', content: 'Forging Adventures' },
@@ -13,7 +13,7 @@ export default {
       { property: 'og:title', content: 'Forging Adventures' },
       {
         property: 'og:description',
-        content: 'A new way to play old-school RPGs online',
+        content: 'A new way to play old-school Tabletop RPGs online',
       },
       { property: 'og:site', content: '@forgeadventures' },
       { property: 'og:creator', content: '@mikelax' },

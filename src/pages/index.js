@@ -9,7 +9,7 @@ import Schema from 'components/home/Schema';
 
 const IndexPage = () => (
   <div className="home">
-    <Helmet title="REST and GraphQL framework on top of Symfony and React" />
+    <Helmet title="Play by Post Website for Pen and Paper RPGs" />
     <Cover />
     <Ecosystem />
     <Expose />

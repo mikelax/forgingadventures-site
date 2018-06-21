@@ -18,11 +18,13 @@ const EcosystemCard = ({ big, image, link, text, title }) => (
         <article className="card__autosize">
           <p>{text}</p>
         </article>
-        <Button
-          text="Read more"
-          className="btn ecosystem__button small"
-          link={link}
-        />
+        {
+          link && <Button
+            text="Read more"
+            className="btn ecosystem__button small"
+            link={link}
+          />
+        }
       </div>
     </div>
   </div>
@@ -31,49 +33,46 @@ const EcosystemCard = ({ big, image, link, text, title }) => (
 EcosystemCard.propTypes = {
   big: PropTypes.bool,
   image: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
+  link: PropTypes.string,
   text: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
 
 EcosystemCard.defaultProps = {
   big: false,
+  link: null,
 };
 
 const Ecosystem = () => (
   <section className="home__part home__ecosystem">
     <div className="container">
       <h1 className="ecosystem__title">
-        The API Platform <strong>Framework</strong>
+        The Forging Adventures <strong>Play by Post</strong> Experience
       </h1>
       <h5>
-        API Platform is a set of tools to build and consume web APIs
+        FA make it easy to play any Tabletop RPG online, on your own time
       </h5>
       <div className="ecosystem__content grid__container">
         <EcosystemCard
           big
+          image={scaffoldingImage}
+          text="Easily create a Character within FA, and watch it grow as the Game evolves. Imagine allowing the GM to assess points of Damage, grant XP, gold, and more and having that automatically reflected on your Character Sheet and Header. No more manually editing complicated text blocks. These changes are relfected automatically. View the changes within your Character Audit Trail at any time."
+          title="Dynamic Character Sheets"
+        />
+        <EcosystemCard
           image={apiImage}
-          link="/docs/core"
-          text="Build a fully-featured hypermedia or GraphQL API in minutes. Leverage its awesome features to develop complex and high performance API-first projects. Extend or override everything you want."
-          title="API Component"
+          text="FA is built to be a delightful experience on your desktop, laptop, or mobile device. Quick and easy posting anywhere. No more copy-pasting previous posts to copy text formatting, no more poorly formatted messages because you posted from your phone."
+          title="Modern & Mobile Ready"
         />
         <EcosystemCard
           image={schemaImage}
-          link="/docs/schema-generator"
-          text="Instantly generates a PHP data model from the Schema.org vocabulary. Let the ORM create the related tables."
-          title="Schema Gen Component"
+          text="FA allows users to play any Tabletop RPG they wish. The Games page allows easy searching of Games by System, status, skill level, posting frequency, and more."
+          title="Play any Tabletop RPG"
         />
         <EcosystemCard
           image={adminImage}
-          link="/docs/admin"
-          text="Adds a convenient Material Design administration interface built with React without writing a line of code. It's a Progressive Web App!"
-          title="Admin Component"
-        />
-        <EcosystemCard
-          image={scaffoldingImage}
-          link="/docs/client-generator"
-          text="Scaffolds a Progressive Web App (React or Vue.js) or a native mobile app (React Native), and edit it to fit your needs."
-          title="Client Gen Component"
+          text="FA knows how time consuming it is to be the GM for one game (or many). Purpose-built GM features let you run the game easier. Easily advertise your Game in the Lounge, accept Playes, track initiative and more."
+          title="Game Master Controls"
         />
       </div>
     </div>
