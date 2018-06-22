@@ -1,7 +1,7 @@
 import React from 'react';
 import links from 'data/menu';
 import Link from 'gatsby-link';
-import LogoSpider from 'images/logo_spider.svg';
+import FALogo from 'images/fa_logo.svg';
 import Logo from './Logo';
 import MenuItem from './MenuItem';
 
@@ -12,8 +12,8 @@ const Header = () => (
     <Link to="/" className="header__logo">
       <img
         className="logo__spider"
-        src={LogoSpider}
-        alt="spidey"
+        src={FALogo}
+        alt="FA Logo"
         width="555"
         height="321"
       />

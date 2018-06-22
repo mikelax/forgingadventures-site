@@ -1,14 +1,14 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Logo from 'images/logo.svg';
+import FALogo from 'images/fa_logo.svg';
 
 const Footer = () =>
   (
     <footer className="footer openable">
       <img
         className="footer__logo"
-        src={Logo}
-        alt="spidey"
+        src={FALogo}
+        alt="FA Logo"
         width="400"
         height="419"
       />

@@ -16,14 +16,8 @@ const Cover = () => (
         />
       </div>
       <h1>Forging Adventures</h1>
-      <h2>A new way to play old-school RPGs online, quickly and easily</h2>
+      <h2>A new way to play old-school Tabletop RPGs online, quickly and easily</h2>
       <div className="cover__buttons">
-        <Button
-          empty
-          text="Download"
-          icon="download"
-          link="https://github.com/api-platform/api-platform/releases/latest"
-        />
         <Button
           text="Get started"
           icon="flag"

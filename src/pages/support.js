@@ -34,54 +34,24 @@ const SupportPage = () => (
     <section className="container">
       <h1>
         Need some <strong>help</strong> ?
+        <br />Adventure in peril?
       </h1>
       <div className="support__cards">
-        <SupportCard title="Community support" image={SupportCommunity}>
+        <SupportCard title="Questions & Support" image={SupportCommercial}>
           <p>
-            Ask questions about API Platform on{' '}
+            If you have a question or comment, please find us on twitter {' '}
             <a
-              href="https://stackoverflow.com/questions/tagged/api-platform.com"
+              href="https://twitter.com/forgeadventures"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Stack Overflow
-            </a>{' '}
-            using the api-platform.com tag.
+            @forgeadventures
+            </a>
           </p>
           <br />
           <p>
-            Chat with the community on the{' '}
-            <a
-              href="https://symfony.com/slack-invite"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              api-platform channel on Symfony&#39;s Slack
-            </a>.
-          </p>
-        </SupportCard>
-        <SupportCard title="Commercial support" image={SupportCommercial}>
-          <p>
-            <a
-              href="https://les-tilleuls.coop/en"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Les-Tilleuls.coop
-            </a>{' '}
-            provides professional services for API Platform and Symfony
-            including training, development and API design.
-          </p>
-          <br />
-          <p>
-            <a
-              href="https://les-tilleuls.coop/en/contact"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Contact us
-            </a>{' '}
-            for more information.
+            Alternatively, you may also email us at: {' '}
+            &#104;&#101;&#108;&#112;&#064;&#102;&#111;&#114;&#103;&#105;&#110;&#103;&#097;&#100;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;&#046;&#099;&#111;&#109;
           </p>
         </SupportCard>
       </div>

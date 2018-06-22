@@ -1,15 +1,11 @@
 const menu = [
   {
-    text: 'Demo',
-    path: 'https://demo.api-platform.com/',
-  },
-  {
-    text: 'News',
-    path: '/news',
-  },
-  {
     text: 'Support',
     path: '/support',
+  },
+  {
+    text: 'Get Started',
+    path: 'https://demo.api-platform.com/',
   },
 ];
 

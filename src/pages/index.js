@@ -9,7 +9,7 @@ import Schema from 'components/home/Schema';
 
 const IndexPage = () => (
   <div className="home">
-    <Helmet title="Play by Post Website for Pen and Paper RPGs" />
+    <Helmet title="Play by Post Website for Pen and Paper Tabletop RPGs" />
     <Cover />
     <Ecosystem />
     <Expose />

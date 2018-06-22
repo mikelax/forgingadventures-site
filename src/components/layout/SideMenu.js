@@ -2,7 +2,7 @@ import React from 'react';
 import links from 'data/menu';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import LogoSpider from 'images/logo_spider.svg';
+import FALogo from 'images/fa_logo.svg';
 import Logo from './Logo';
 import MenuItem from './MenuItem';
 
@@ -15,8 +15,8 @@ const SideMenu = ({ open }) => (
         <div className="logo__circle">
           <img
             className="logo__spider"
-            src={LogoSpider}
-            alt="spidey"
+            src={FALogo}
+            alt="FA Logo"
             width="555"
             height="321"
           />

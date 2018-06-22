@@ -1,6 +1,5 @@
 import React from 'react';
 import dataSchema from 'data/schema';
-import spider from 'images/spider_schema.svg';
 
 /* eslint-disable react/prop-types */
 
@@ -53,9 +52,6 @@ const Schema = () => (
         It's never been easier to get started with Play by Post Gaming
       </h1>
       {dataSchema.map(part => <SchemaPart key={part.title} {...part} />)}
-    </div>
-    <div className="schema__spider">
-      <img src={spider} alt="spider" width="256" height="422" />
     </div>
   </section>
 );
