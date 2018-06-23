@@ -6,6 +6,7 @@ import AllInOne from 'components/home/AllInOne';
 import Giants from 'components/home/Giants';
 import Expose from 'components/home/Expose';
 import Schema from 'components/home/Schema';
+import Newsletter from 'components/home/Newsletter';
 
 const IndexPage = () => (
   <div className="home">
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <AllInOne />
     <Giants />
     <Schema />
+    <Newsletter />
   </div>
 );
 

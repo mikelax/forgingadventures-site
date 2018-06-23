@@ -3,10 +3,10 @@
   "license": "MIT",
   "dependencies": {
     "classnames": "2.2.6",
-    "dotenv": "^4.0.0",
     "gatsby": "1.9.270",
     "gatsby-link": "1.6.44",
     "gatsby-plugin-google-analytics": "^1.0.12",
+    "gatsby-plugin-mailchimp": "2.2.3",
     "gatsby-plugin-manifest": "^1.0.8",
     "gatsby-plugin-offline": "^1.0.10",
     "gatsby-plugin-react-helmet": "^1.0.8",

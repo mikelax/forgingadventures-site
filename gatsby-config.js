@@ -1,11 +1,9 @@
 /* eslint-disable no-unused-vars */
-const fs = require('fs');
-const dotenv = require('dotenv').config({ path: '.env.gatsby' });
 
 module.exports = {
   siteMetadata: {
     title: 'Forging Adventures',
-    siteUrl: process.env.GATSBY_ROOT_URL,
+    siteUrl: 'https://forgingadventures.com',
   },
   plugins: [
     'gatsby-plugin-catch-links',
@@ -89,7 +87,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID,
+        trackingId: 'UA-112386632-1',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://forgingadventures.us18.list-manage.com/subscribe/post?u=977d743c212e8f483888b61e8&amp;id=7864f5a948',
       },
     },
   ],
