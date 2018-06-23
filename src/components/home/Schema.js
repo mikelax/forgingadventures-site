@@ -49,7 +49,7 @@ const Schema = () => (
   <section className="home__part home__schema">
     <div className="container schema__container">
       <h1 className="schema__title">
-        It's never been easier to get started with Play by Post Gaming
+        It&apos;s never been easier to get started with Play by Post Gaming
       </h1>
       {dataSchema.map(part => <SchemaPart key={part.title} {...part} />)}
     </div>

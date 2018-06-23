@@ -2,7 +2,6 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import SupportCommercial from 'images/support_commercial.svg';
-import SupportCommunity from 'images/support_community.svg';
 
 const SupportCard = ({ children, image, title }) => (
   <div className="support-card">
@@ -51,7 +50,7 @@ const SupportPage = () => (
           <br />
           <p>
             Alternatively, you may also email us at: {' '}
-            &#104;&#101;&#108;&#112;&#064;&#102;&#111;&#114;&#103;&#105;&#110;&#103;&#097;&#100;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;&#046;&#099;&#111;&#109;
+            &#104;&#101;&#108;&#108;&#111;&#064;&#102;&#111;&#114;&#103;&#105;&#110;&#103;&#097;&#100;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;&#046;&#099;&#111;&#109;
           </p>
         </SupportCard>
       </div>

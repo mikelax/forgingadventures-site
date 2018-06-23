@@ -19,8 +19,8 @@ const Giants = () => (
       <article className="giants__content">
         <p className="hidden-small">
           Forging Adventures is the <strong>first website purpose built</strong> with features
-          to make Play by Post games quick and easy. FA works beautifully on any device, so it's
-          easy to play on the go anywhere.
+          to make Play by Post games quick and easy. FA works beautifully on any device,
+          so it&apos;s easy to play on the go anywhere.
         </p>
         <HomeList data={data} className="giants__list" />
       </article>
