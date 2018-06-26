@@ -137,4 +137,15 @@
       color: rgba(191, 191, 191, 0.87);
     }
   }
+
+  @include mq($max-width: $vw-medium) {
+    .newsletter__content {
+      padding: 30px;
+      width: 100%;
+    }
+
+    .newsletter__form {
+      width: 100%;
+    }
+  }
 }

@@ -63,7 +63,7 @@ class Newsletter extends React.Component {
             Sign up for our Mailing List
           </h1>
           <article className="newsletter__content">
-            <p className="hidden-small">
+            <p>
               We are still sharpening our swords and crafting our armor. Join the mailing list
               now to be one of the first notified when FA is available for additional sign ups.
             </p>
