@@ -81,15 +81,19 @@ class Newsletter extends React.Component {
               method="post"
               noValidate
             >
-              <input
-                type="email"
-                name="email"
-                placeholder="Enter email"
-                required
-                onChange={this._handleEmailChange}
-              />
+              <div className="input ui">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter email"
+                  required
+                  onChange={this._handleEmailChange}
+                />
+              </div>
+
               <button
                 type="submit"
+                className="ui button"
                 onClick={this._handleFormSubmit}
               >
                 Subscribe
