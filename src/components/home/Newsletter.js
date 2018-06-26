@@ -57,8 +57,8 @@ class Newsletter extends React.Component {
 
   render() {
     return (
-      <section className="home__part home__newsletter">
-        <div className="container giants__container">
+      <section id="newsletterSection" className="home__part home__newsletter">
+        <div className="container newsletter__container">
           <h1 className="newsletter__title">
             Sign up for our Mailing List
           </h1>

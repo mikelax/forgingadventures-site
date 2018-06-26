@@ -41,7 +41,7 @@
   }
 
   .logo__text {
-    height: 20px;
+    height: 40px;
     width: auto;
 
     path {
@@ -209,6 +209,10 @@
   }
   @include mq($max-width: $vw-small) {
     height: $mobileHeaderH;
+
+    .logo__text {
+      height: 32px;
+    }
   }
   @include mq($max-width: 350px) {
     .header__logo {

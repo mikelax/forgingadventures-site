@@ -20,21 +20,9 @@
     bottom: vheight(50);
     transform: translateX(-50%);
 
-    .spider__image {
+    .cover__image {
       width: auto;
       height: 100%;
-    }
-
-    &:before {
-      content: "";
-      position: absolute;
-      width: 3px;
-      height: 100vh;
-      top: 20%;
-      left: calc(50% - 2px);
-      opacity: .3;
-      background-color: $black;
-      transform: translate(-50%, -100%);
     }
   }
 
