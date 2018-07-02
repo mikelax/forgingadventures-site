@@ -25,10 +25,11 @@
     display: inline-block;
     vertical-align: middle;
     max-width: 40%;
+    padding-left: 20px;
     text-align: center;
 
     img {
-      width: 100%;
+      width: 300%;
       max-width: 380px;
       height: auto;
     }
@@ -45,6 +46,12 @@
 
     .expose__spider {
       width: 100%;
+      text-align: center;
+
+      img {
+        text-align: center;
+        width: 200%;
+      }
     }
   }
   @include mq($max-width: $vw-medium) {

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import adminImage from 'images/admin_component.svg';
-import scaffoldingImage from 'images/scaffolding_component.svg';
+import characterImage from 'images/character.svg';
 import apiImage from 'images/api_component.svg';
 import schemaImage from 'images/schema_component.svg';
 import Button from 'components/common/Button';
@@ -50,12 +50,12 @@ const Ecosystem = () => (
         The Forging Adventures <strong>Play by Post</strong> Experience
       </h1>
       <h5>
-        FA make it easy to play any Tabletop RPG online, on your own time
+        Making it easy to play any Tabletop RPG online, on your own time
       </h5>
       <div className="ecosystem__content grid__container">
         <EcosystemCard
           big
-          image={scaffoldingImage}
+          image={characterImage}
           text="Easily create a Character within FA, and watch it grow as the Game evolves. Imagine allowing the GM to assess points of Damage, grant XP, gold, and more and having that automatically reflected on your Character Sheet and Header. No more manually editing complicated text blocks. These changes are relfected automatically. View the changes within your Character Audit Trail at any time."
           title="Dynamic Character Sheets"
         />

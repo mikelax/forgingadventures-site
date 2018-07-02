@@ -1,5 +1,5 @@
 import React from 'react';
-import spider from 'images/giants.svg';
+import giant from 'images/rock-giant.svg';
 import HomeList from './HomeList';
 
 const data = [
@@ -26,10 +26,9 @@ const Giants = () => (
       </article>
       <div className="giants__spider">
         <img
-          src={spider}
-          alt="Built on the shoulders of giants"
+          src={giant}
+          alt="Rock Giant"
           width="371"
-          height="344"
         />
       </div>
     </div>
