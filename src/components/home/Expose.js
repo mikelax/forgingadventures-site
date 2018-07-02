@@ -1,5 +1,5 @@
 import React from 'react';
-import spider from 'images/expose.svg';
+import wizard from 'images/wizard.svg';
 import HomeList from './HomeList';
 
 const data = [
@@ -26,7 +26,7 @@ const Expose = () => (
         <HomeList data={data} className="expose__list" />
       </article>
       <div className="expose__spider">
-        <img src={spider} alt="Expose and consume" width="400" height="419" />
+        <img src={wizard} alt="Wizard" width="400" height="419" />
       </div>
     </div>
   </section>
