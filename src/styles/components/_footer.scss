@@ -1,0 +1,45 @@
+.footer {
+  position: relative;
+  z-index: z("footer");
+  background-color: $blackblue;
+  color: $white;
+  text-align: center;
+  padding: 50px 20px 20px;
+  height: $footerH;
+
+  a {
+    color: $lightblue;
+
+    &:hover {
+      color: $clearblue;
+    }
+  }
+
+  .footer__copyright {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+  }
+
+  .footer__links {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .footer__logo {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 90px;
+    height: auto;
+    transform: translate(-50%, -50%);
+  }
+
+  @include mq($max-width: $vw-small) {
+    .footer__copyright,
+    .footer__links {
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+    }
+  }
+}
