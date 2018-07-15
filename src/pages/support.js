@@ -27,6 +27,7 @@ SupportCard.defaultProps = {
   children: null,
 };
 
+/* eslint-disable max-len */
 const SupportPage = () => (
   <div className="support">
     <Helmet title="Support" />
@@ -57,5 +58,6 @@ const SupportPage = () => (
     </section>
   </div>
 );
+/* eslint-enable max-len */
 
 export default SupportPage;

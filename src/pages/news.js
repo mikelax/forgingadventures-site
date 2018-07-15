@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 import Spider from 'images/spider_news.svg';
 import Bird from 'images/twitter_bird.svg';
 
-class News extends Component {
+class News extends React.Component {
   /* eslint-disable no-undef */
   componentDidMount() {
     if (twttr.widgets) {
