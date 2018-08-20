@@ -56,7 +56,7 @@ const Ecosystem = () => (
         <EcosystemCard
           big
           image={characterImage}
-          text="Easily create a Character within FA, and watch it grow as the Game evolves. Imagine allowing the GM to assess points of Damage, grant XP, gold, and more and having that automatically reflected on your Character Sheet and Header. No more manually editing complicated text blocks. These changes are relfected automatically. View the changes within your Character Audit Trail at any time."
+          text="Easily create a Character within FA, and watch it grow as the Game evolves. Imagine allowing the GM to assess points of Damage, grant XP, gold, and more and having that automatically reflected on your Character Sheet and Header. No more manually editing complicated text blocks. These changes are reflected automatically. View the changes within your Character Audit Trail at any time."
           title="Dynamic Character Sheets"
         />
         <EcosystemCard
