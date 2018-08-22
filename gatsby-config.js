@@ -14,8 +14,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'API Platform',
-        short_name: 'API Platform',
+        name: 'Forging Adventures',
+        short_name: 'Forging Adventures',
         start_url: '/',
         background_color: '#67cece',
         theme_color: '#38a9b4',
