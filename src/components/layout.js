@@ -40,7 +40,7 @@ class TemplateWrapper extends React.Component {
         <div className="full">
           <Helmet {...helmetConfig.head} />
           <Header />
-          <div className={classNames('page openable with-footer')}>{children()}</div>
+          <div className={classNames('page openable with-footer')}>{children}</div>
           <Footer />
         </div>
         <BurgerButton

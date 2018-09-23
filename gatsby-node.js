@@ -78,17 +78,10 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   });
 };
 
-exports.modifyWebpackConfig = ({ config }) => {
-  config.merge({
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  actions.setWebpackConfig({
     resolve: {
-      root: Path.resolve(__dirname, './src'),
-      alias: {
-        styles: 'styles',
-        images: 'images',
-        data: 'data',
-        components: 'components',
-      },
+      modules: [Path.resolve(__dirname, "src"), "node_modules"],
     },
-  });
-  return config;
+  })
 };

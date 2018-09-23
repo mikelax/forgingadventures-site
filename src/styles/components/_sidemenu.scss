@@ -116,16 +116,6 @@
           display: none;
         }
       }
-
-      .menu-item__submenu {
-        padding-left: 15px;
-        font-size: 1.6rem;
-
-        & > .submenu__item {
-          padding: 3px 0;
-          display: block;
-        }
-      }
     }
   }
   @include mq($max-width: $vw-medium, $min-width: $vw-small) {

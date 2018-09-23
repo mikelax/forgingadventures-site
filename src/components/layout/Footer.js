@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import FALogo from 'images/fa_logo.svg';
 
 const Footer = () =>
@@ -8,7 +8,7 @@ const Footer = () =>
       <img
         className="footer__logo"
         src={FALogo}
-        alt="FA Logo"
+        alt="Forging Adventures Logo"
         width="400"
         height="419"
       />
