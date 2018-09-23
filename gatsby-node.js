@@ -1,8 +1,8 @@
 const Path = require('path');
 const URL = require('url');
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
   const singleColTextTemplate = Path.resolve(`src/templates/SingleColText.js`);
 
@@ -36,8 +36,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     });
 };
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
   if ('MarkdownRemark' !== node.internal.type) {
     return;
   }

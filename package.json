@@ -5,7 +5,7 @@
     "classnames": "2.2.6",
     "gatsby": "2.0.7",
     "gatsby-plugin-google-analytics": "2.0.6",
-    "gatsby-plugin-mailchimp": "3.3.0",
+    "gatsby-plugin-mailchimp": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git#gatsby-v2",
     "gatsby-plugin-manifest": "2.0.2",
     "gatsby-plugin-offline": "2.0.5",
     "gatsby-plugin-react-helmet": "3.0.0",
