@@ -10,4 +10,4 @@ before_install:
 
 script:
   - yarn lint
-  - yarn gatsby build
+  - yarn build
