@@ -14,8 +14,9 @@ class TemplateWrapper extends React.Component {
     showResponsiveMenu: false,
   };
 
-  componentWillReceiveProps(nextProps) {
-    if (this.props.location.pathname !== nextProps.location.pathname) {
+  componentWillReceiveProps({ location }) {
+    // eslint-disable-next-line react/destructuring-assignment
+    if (this.props.location.pathname !== location.pathname) {
       this.setState(prevState => ({ ...prevState, showResponsiveMenu: false }));
     }
   }
@@ -33,7 +34,7 @@ class TemplateWrapper extends React.Component {
 
   render() {
     const { children } = this.props;
-    const open = this.state.showResponsiveMenu;
+    const { showResponsiveMenu: open } = this.state;
 
     return (
       <div className={classNames('main full', { open })}>

@@ -19,11 +19,7 @@ const EcosystemCard = ({ big, image, link, text, title }) => (
           <p>{text}</p>
         </article>
         {
-          link && <Button
-            text="Read more"
-            className="btn ecosystem__button small"
-            link={link}
-          />
+          link && <Button text="Read more" className="btn ecosystem__button small" link={link} />
         }
       </div>
     </div>
