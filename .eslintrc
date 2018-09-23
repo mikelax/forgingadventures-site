@@ -20,20 +20,14 @@
     "no-duplicate-imports": 0,
     // We authorize _ for private variables
     "no-underscore-dangle": 0,
-    // We authorize chained declaration
-    "one-var": 0,
     // We only accept yoda style for conditions
     "yoda": [2, "always"],
     // A .jsx extension is not required for files containing jsx.
     "react/jsx-filename-extension": 0,
     // We authorize binded function
     "react/jsx-no-bind": 0,
-    // This rule struggles with flow and class properties.
-    "react/sort-comp": 0,
     // We authorize all kind of prop types
     "react/forbid-prop-types": 0,
-    // We authorize no unused prop types
-    "react/no-unused-prop-types": 0,
     // We authorize index keys
     "react/no-array-index-key": 0,
     // We authorize dynamic HTML in JSX
@@ -42,6 +36,7 @@
     "jsx-a11y/anchor-has-content": 0,
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/click-events-have-key-events": 0,
-    "jsx-a11y/anchor-is-valid": 0
+    "jsx-a11y/anchor-is-valid": 0,
+    "react/jsx-one-expression-per-line": 0
   }
 }

@@ -51,11 +51,13 @@ class Newsletter extends React.Component {
         message: null,
       },
       // setState callback (subscribe email to MC)
+      // eslint-disable-next-line react/destructuring-assignment
       this._postEmailToMailchimp(this.state.email),
     );
   }
 
   render() {
+    const { status, message } = this.state;
     return (
       <section id="newsletterSection" className="home__part home__newsletter">
         <div className="container newsletter__container">
@@ -71,8 +73,8 @@ class Newsletter extends React.Component {
           <div className="newsletter__form">
 
             {
-              ('success' === this.state.status || 'error' === this.state.status) && (
-                <div className={`newsletter__message${this.state.status}`}>{this.state.message}</div>
+              ('success' === status || 'error' === status) && (
+                <div className={`newsletter__message${status}`}>{message}</div>
               )
             }
 
